@@ -22,9 +22,11 @@ int main() {
 
   // prints unrestricted sliding piece moves from a given square
   board.printRaysFrom(35);
+  cout << endl << endl;
 
   // prints unrestricted knight moves from a given square
   board.printKnightMovesFrom(35);
+  cout << endl << endl;
 
   // prints unrestricted king moves from a given square
   board.printKingMovesFrom(35);
